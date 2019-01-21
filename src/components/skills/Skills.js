@@ -26,6 +26,12 @@ export default function Skills() {
         title: "DevOps",
         description:
           "Microsoft Azure, Travis CI, Azure Pipelines, Test Unitarios."
+      },
+      {
+        logo: "logo fas fa-globe-americas",
+        title: "Tools",
+        description:
+          "Unix Bash, Powershell, CMD"
       }
     ]
   };
