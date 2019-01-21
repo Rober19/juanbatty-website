@@ -3,13 +3,13 @@ import "./Skills.css";
 
 export default function Skills() {
   const AboutUsInfo = {
-    title: "Habilidades",
+    title: "Skills",
     skill_items: [
       {
         logo: "logo fas fa-paint-brush",
         title: "Front-End",
         description:
-          "HTML5, CSS3, JavaScript, Angular.js, Angular, Responsive Design"
+          "HTML, CSS, JS, TS, Angular.js, Angular, Responsive Design"
       },
       {
         logo: "logo fas fa-hdd",
@@ -18,7 +18,7 @@ export default function Skills() {
       },
       {
         logo: "logo fas fa-database",
-        title: "BB",
+        title: "DB",
         description: "MySQL, MongoDB, Firebase, Google Cloud."
       },
       {

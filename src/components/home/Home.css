@@ -54,11 +54,11 @@
 }
 
 .header .title {
-  font-family: 'Kaushan Script', cursive;
+  font-family: 'Libre Barcode 128 Text', cursive;
   font-size: 4.5em !important;
   margin: 20px;
   margin-bottom: 30px;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
 }
 
 .header .subtitle {
