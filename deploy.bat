@@ -23,7 +23,7 @@ set p1=%git config user.name%
 echo %p1%
 set datestr=%month%_%day%_%year%
 REM tambien en la fecha se puede usar el %date%
-git commit -m "[%gituser%] [%datestr%] %commit% "
+git commit -m "[%gituser%] [%date%] %commit% "
 git push origin master
-call npm run build && echo F| xcopy now.json .\build\now.json && cd build && now && now alias
+call now_.bat
 pause

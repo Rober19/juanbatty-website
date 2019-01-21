@@ -26,17 +26,17 @@ export default function Home() {
         url: "https://www.linkedin.com/in/roberto-andres-batty-linero-65bb3a126/"
       },
       {
-        iconClass: "fab fa-youtube youtube",
-        url: "https://www.youtube.com/channel/UCaZUNkiN2GmxKA03Od1yENw"
+        iconClass: "fab fa-cc-paypal",
+        url: "http://paypal.me/robertobatty"
       },
-      {
-        iconClass: "fab fa-instagram instagram",
-        url: ""
-      },
-      {
-        iconClass: "far fa-envelope envelope",
-        url: ""
-      }
+      // {
+      //   iconClass: "fab fa-instagram instagram",
+      //   url: ""
+      // },
+      // {
+      //   iconClass: "far fa-envelope envelope",
+      //   url: ""
+      // }
     ]
   };
 

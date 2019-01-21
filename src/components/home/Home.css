@@ -55,10 +55,16 @@
 
 .header .title {
   font-family: 'Libre Barcode 128 Text', cursive;
-  font-size: 4.5em !important;
+
+  font-size: 100%;
+  font-weight: 300;
   margin: 20px;
   margin-bottom: 30px;
   /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
+}
+
+.title1 {
+  font-size: 100px;
 }
 
 .header .subtitle {
