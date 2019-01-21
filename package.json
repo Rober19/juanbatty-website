@@ -1,9 +1,9 @@
 {
-  "name": "jbatty-site",
+  "name": "rober19-site",
   "description": "Mini website using React.js",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jmbl1685.github.io/",
+  "homepage": "https://rober19.github.io/",
   "dependencies": {
     "aos": "^2.3.4",
     "axios": "^0.18.0",

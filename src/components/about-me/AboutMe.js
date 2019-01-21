@@ -4,10 +4,10 @@ import "./AboutMe.css";
 
 export default function AboutMe() {
   const AboutUsInfo = {
-    title: "Acerca de mí",
+    title: "About me",
     paragraph: [
-      "Soy desarrollador de software e Ingeniero de Sistemas en formación, me gusta todo lo relacionado a nuevas tecnologías, me apasionan todos los procesos tanto del Front-End como del Back-End, me desempeño muy bien en la dos áreas.",
-      "Me gusta llevar a cabo siempre las buenas prácticas de desarrollo para así poder brindar soluciones de alta cálidad para quien necesite mis servicios."
+      "...",
+      "..."
     ]
   };
 
@@ -18,7 +18,7 @@ export default function AboutMe() {
         <div>
           <div className="center-txt">
             <h2>{AboutUsInfo.title}</h2>
-            <div className="line-dv" />
+            <div className="line-dv line-blue" />
             <div className="mb">
               {AboutUsInfo.paragraph.map((item, index) => {
                 return (

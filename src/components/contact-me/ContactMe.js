@@ -3,10 +3,10 @@ import "./ContactMe.css";
 
 export default function ContactMe() {
   const ContactInfo = {
-    title: "Contáctame",
+    title: "Contact",
     description:
-      "Puedes comunicarte conmigo a través de mis redes sociales o escribiendome al siguiente número",
-    phone: "(+57) 3107075514"
+      "-",
+    phone: "-"
   };
 
   return (
@@ -17,7 +17,7 @@ export default function ContactMe() {
         <div>
           <p>{ContactInfo.description}</p>
           <h3>
-            <i className="fab fa-whatsapp" /> {ContactInfo.phone}
+            <i/> {ContactInfo.phone}
           </h3>
         </div>
       </div>

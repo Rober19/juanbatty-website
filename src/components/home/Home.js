@@ -10,32 +10,32 @@ export default function Home() {
   };
 
   const HomeInfo = {
-    title: "Juan Batty",
-    description: "Fullstack .NET and Javascript Developer",
+    title: "Rober19",
+    description: "Developer",
     accounts: [
       {
         iconClass: "fab fa-github github",
-        url: "https://github.com/jmbl1685"
+        url: "https://github.com/Rober19"
       },
       {
         iconClass: "fab fa-twitter twitter",
-        url: "https://twitter.com/jmbl1685"
+        url: "https://twitter.com/relaxboi19"
       },
       {
         iconClass: "fab fa-linkedin linkedin",
-        url: "https://www.linkedin.com/in/juan-manuel-batty-linero-ba955a138/"
+        url: "https://www.linkedin.com/in/roberto-andres-batty-linero-65bb3a126/"
       },
       {
         iconClass: "fab fa-youtube youtube",
-        url: "https://www.youtube.com/channel/UCO2Ugy7W2xHZ6sDGBiRizrg"
+        url: "https://www.youtube.com/channel/UCaZUNkiN2GmxKA03Od1yENw"
       },
       {
         iconClass: "fab fa-instagram instagram",
-        url: "https://www.instagram.com/juanbatty/"
+        url: ""
       },
       {
         iconClass: "far fa-envelope envelope",
-        url: "mailto:jmbl1685@hotmail.com"
+        url: ""
       }
     ]
   };

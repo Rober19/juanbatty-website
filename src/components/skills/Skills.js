@@ -7,25 +7,25 @@ export default function Skills() {
     skill_items: [
       {
         logo: "logo fas fa-paint-brush",
-        title: "Desarrollo Front-End",
+        title: "Front-End",
         description:
-          "HTML5, CSS3, JavaScript, Angular.js, Angular, React.js, Responsive Design, SASS, Gulp, WebPack, SEO etc."
+          "HTML5, CSS3, JavaScript, Angular.js, Angular, Responsive Design"
       },
       {
         logo: "logo fas fa-hdd",
-        title: "Desarrollo Back-End",
-        description: "C#, ASP.NET, ASP.NET Core, Node.js, etc."
+        title: "Back-End",
+        description: "C#, Node.js, Java EE etc."
       },
       {
         logo: "logo fas fa-database",
-        title: "Base de datos",
-        description: "SQL Server, MySQL, MongoDB, Firebase."
+        title: "BB",
+        description: "MySQL, MongoDB, Firebase, Google Cloud."
       },
       {
         logo: "logo fas fa-tasks",
         title: "DevOps",
         description:
-          "Microsoft Azure, AWS, Travis CI, Azure Pipelines, Test Unitarios, etc."
+          "Microsoft Azure, Travis CI, Azure Pipelines, Test Unitarios."
       }
     ]
   };
@@ -35,7 +35,7 @@ export default function Skills() {
       <section>
         <div>
           <h2>{AboutUsInfo.title}</h2>
-          <div className="line-dv" />
+          <div className="line-dv line-blue" />
         </div>
       </section>
       <div className="container mb">
